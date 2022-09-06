@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - AP</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="./assets/bootstrap-5.2.0-dist/css/bootstrap-grid.min.css">
+    <link rel="icon" href="./assets/login.png">
+</head>
+<body class="container">
+    <div class="form">
+        <img src="./assets/APLogo.png" alt="Logo">
+        <h1 class="title">INGRESO AL PANEL AUTOADMINISTRABLE</h1>
+        <form action="">
+            <div class="form-cajas">
+                <label for="user" class="subtitulo">Usuario</label>
+                <input type="text" class="form-style" id="user" placeholder="Ingrese su usuario">
+            </div>
+
+            <div class="form-cajas">
+                <label for="clave" class="subtitulo">Clave</label>
+                <input type="text" class="form-style" id="clave" placeholder="Ingrese su contraseña">
+            </div>
+
+            <div>
+                <button class="btn" href="sistema.html">INGRESAR</button>
+                <button class="btn" onclick="CerrarVentana()">CANCELAR</button>
+                <p><a href="ingreso.html" class="link">Si no está registrado, haga click aquí</a></p>
+            </div>
+        </form>
+    </div>
+    <article>
+        <address>
+            <p class="p-address">
+                Usuario: Micaela, Clave: 🤷🏻‍♀️
+            </p>
+        </address>
+    </article>
+    <script src="script.js"></script>
+    <script src="./assets/bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
